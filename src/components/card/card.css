@@ -2,13 +2,36 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    padding: 5rem 10rem;
+    min-width: 500px;
+    min-height: 40rem;
     border: 2px solid rgb(207, 207, 207);
-    border-radius: 0.8rem;
+    border-radius: 10px;
     color: rgb(240, 240, 240);
-    margin-right: 20rem;
+    padding: 0 10px;
+    user-select: none;
+    backdrop-filter: blur(2px);
+    margin-right: 15rem;
 }
 
 .cardWrap:hover {
-    backdrop-filter: brightness(90%);
+    backdrop-filter: brightness(110%) blur(2px);
+}
+
+.cardHeader {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    padding: 0 10px;
+    width: 100%;
+    height: 5rem;
+    border: 2px solid rgb(207, 207, 207);
+    border-bottom: 2px solid rgb(207, 207, 207);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background: linear-gradient( -45deg, rgba(0, 0, 0, 0.6) 0%, rgba(88, 165, 248, 1) 100%);
+    backdrop-filter: blur(1px);
+}
+
+.cardContent {
+    padding: 2rem 3rem;
 }
