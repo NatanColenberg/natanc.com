@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap");
+.introWrap {
+    color: rgb(240, 240, 240);
+    font-family: "Roboto Mono";
+    font-size: 3rem;
+    text-shadow: 10px 10px 20px black;
+    text-align: center;
+    margin-left: 10rem;
+}
+
+.introName {
+    color: #58a5f8;
+}
+
+.introTextCursor {
+    position: absolute;
+}

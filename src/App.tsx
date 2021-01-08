@@ -1,11 +1,14 @@
 import React from "react";
+import BackgroundImg from "./img/background.jpg";
+import Intro from "./components/intro/intro";
+import Card from "./components/card/card";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hi There :)</h1>
-      <h1>I'm Natan!!!!!!</h1>
+      <Intro />
+      <Card />
     </div>
   );
 }
