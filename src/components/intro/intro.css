@@ -5,13 +5,19 @@
     font-family: "Roboto Mono";
     font-size: 2.5rem;
     text-shadow: 10px 10px 20px black;
-    text-align: center;
     user-select: none;
     margin-left: 4rem;
 }
 
 .introName {
     color: #58a5f8;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.introName:hover {
+    text-decoration: underline;
+    text-shadow: 10px 10px 20px rgb(87, 87, 87);
 }
 
 .introTextCursor {
