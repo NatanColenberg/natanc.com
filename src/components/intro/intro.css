@@ -1,30 +1,32 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap");
 .introWrap {
-    position: relative;
-    color: rgb(240, 240, 240);
-    font-family: "Roboto Mono";
-    font-size: 2.5rem;
-    text-shadow: 10px 10px 20px black;
-    user-select: none;
-    margin-left: 4rem;
+  position: relative;
+  color: rgb(240, 240, 240);
+  font-size: 2.5rem;
+  text-shadow: 10px 10px 20px black;
+  user-select: none;
+  margin-left: 4rem;
 }
 
 .introName {
-    color: #58a5f8;
-    cursor: pointer;
-    transition-duration: 0.3s;
+  color: #58a5f8;
+  cursor: pointer;
+  transition-duration: 0.3s;
 }
 
 .introName:hover {
-    text-decoration: underline;
-    text-shadow: 10px 10px 20px rgb(87, 87, 87);
+  text-decoration: underline;
+  text-shadow: 10px 10px 20px rgb(87, 87, 87);
 }
 
 .introTextCursor {
-    position: absolute;
+  position: absolute;
 }
 
 .introSentence {
-    /* font-size: 1rem; */
-    position: relative;
+  /* font-size: 1rem; */
+  position: relative;
+}
+
+h1 {
+  margin: 0.5rem;
 }

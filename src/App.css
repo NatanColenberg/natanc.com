@@ -1,14 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap");
 .App {
-    height: 100vh;
-    display: flex;
-    flex-flow: row;
-    align-items: center;
-    justify-content: space-between;
-    background-image: url("./img/background.jpg");
-    background-size: cover;
-    background-position: center;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 5% auto;
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-areas: "header header header" "left center right";
+  background-image: url("./img/background.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: "Roboto Mono";
 }
 
-h1 {
-    margin: 0.5rem;
+.header {
+  grid-area: header;
+}
+
+.left {
+  grid-area: left;
+  margin: auto;
+}
+
+.center {
+  grid-area: center;
+  margin: auto;
+}
+
+.right {
+  grid-area: right;
+  margin: auto;
 }
