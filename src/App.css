@@ -15,17 +15,11 @@
   grid-area: header;
 }
 
-.left {
-  grid-area: left;
-  margin: auto;
-}
-
 .center {
   grid-area: center;
-  margin: auto;
+  display: flex;
 }
 
 .right {
   grid-area: right;
-  margin: auto;
 }
